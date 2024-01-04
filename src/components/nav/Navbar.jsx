@@ -1,25 +1,19 @@
 import React, { useState, useEffect } from 'react';
-
+import { Link } from 'react-router-dom';
+import './nav.css';
 import hamburgerMenu from '../../assets/hamburgerMenu.svg';
 import close from '../../assets/close.svg';
 import logo from '../../assets/image/sanho.png';
-import './nav.css';
-import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [showServicesModal, setShowServicesModal] = useState(false);
 
   const handleClick = () => setToggle(!toggle);
 
-  const handleServicesHover = () => {
-    setShowServicesModal(true);
-  };
+  const handleServicesHover = () => setShowServicesModal(true);
 
-  const handleModalHover = () => {
-    setShowServicesModal(true);
-  };
-
- 
+  const handleModalHover = () => setShowServicesModal(true);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -47,8 +41,9 @@ const Navbar = () => {
 
         <div className='hidden md:flex items-center'>
           <ul className='flex gap-4'>
-            <li className='inline-block mx-4 text-gray-400 hover:text-orange-950 cursor-pointer'>
-            <Link to="/" >Home</Link></li>
+            <li className='inline-block mx-4 text-gray-400 hover:text-orange-950'>
+              <Link to="/">Home</Link>
+            </li>
             <div
               className='relative'
               onMouseEnter={handleServicesHover}
@@ -61,20 +56,20 @@ const Navbar = () => {
               >
                 <h2 className="text-xl font-semibold mb-4 text-orange-950">Services</h2>
                 <ul>
-                <li className='flex items-center my-2 text-gray-400 hover:text-gray-800 cursor-pointer  text-orange-950'>
-                    <Link to="/heavyequipment"> {/* Add Link to Heavy Equipment Service */}
+                  <li className='flex items-center my-2 text-gray-400 hover:text-gray-800 cursor-pointer text-orange-950'>
+                    <Link to="/heavyequipment">
                       Heavy Equipment & Spare Parts
                     </Link>
                     <span className="ml-2">&gt;</span>
                   </li>
-                  <li className='flex items-center my-2 text-gray-400 hover:text-orange-950 cursor-pointer  text-orange-950'>
-                  <Link to="/machineryrepair"> {/* Add Link to Heavy Equipment Service */}
+                  <li className='flex items-center my-2 text-gray-400 hover:text-orange-950 cursor-pointer text-orange-950'>
+                    <Link to="/machineryrepair">
                       Machinery Repair
                     </Link>
                     <span className="ml-2">&gt;</span>
                   </li>
-                  <li className='flex items-center my-2 text-gray-400 hover:text-gray-800 cursor-pointer  text-orange-950'>
-                  <Link to="/construction"> {/* Add Link to Heavy Equipment Service */}
+                  <li className='flex items-center my-2 text-gray-400 hover:text-gray-800 cursor-pointer text-orange-950'>
+                    <Link to="/construction">
                       Construction
                     </Link>
                     <span className="ml-2">&gt;</span>
@@ -83,13 +78,13 @@ const Navbar = () => {
               </div>
             </div>
             <li className='inline-block mx-4 text-gray-400 hover:text-orange-950'>
-            <Link to="/machines">Machines</Link>
+              <Link to="/machines">Machines</Link>
             </li>
             <li className='inline-block mx-4 text-gray-400 hover:text-orange-950'>
               <Link to="/parts">Parts</Link>
             </li>
             <li className='inline-block mx-4 text-gray-400 hover:text-orange-950'>
-            <Link to="/about">About</Link>
+              <Link to="/about">About</Link>
             </li>
           </ul>
         </div>
@@ -105,6 +100,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;
