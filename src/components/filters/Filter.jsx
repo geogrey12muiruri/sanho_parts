@@ -1,6 +1,6 @@
 import React from 'react';
 import { SiVolvo } from "react-icons/si";
-import FilterImage from '../../assets/image/filter1.png'
+import FilterImage from '../../assets/image/filter1.webp'
 import FilterImage2 from '../../assets/image/filter2.jpeg'
 import FilterImage3 from '../../assets/image/filter3.jpeg'
 import FilterImage4 from '../../assets/image/filter4.jpeg'

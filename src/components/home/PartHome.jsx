@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import filtersImage from '../../assets/parts-images/filters.png';
+import filtersImage from '../../assets/parts-images/filter.webp';
 import undercarriageImage from '../../assets/parts-images/under-carriage.png';
 import quickWearImage from '../../assets/parts-images/quickwear.jpeg';
 import enginePartsImage from '../../assets/parts-images/engine.jpeg';
