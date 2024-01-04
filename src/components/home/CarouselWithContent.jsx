@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Carousel } from "@material-tailwind/react";
-import "./CarouselWithContent.css";
+import "./carousel.css";
 import { Link } from "react-router-dom";
 
 export function CarouselWithContent() {
