@@ -9,7 +9,7 @@ import './machines.css'; // Assuming you have defined styles in this file
 // Import images
 import image1 from '../../assets/machines/shantui.png';
 import image2 from '../../assets/machines/machine3.jpeg';
-import image3 from '../../assets/machines/volvo2.jpg';
+import image3 from '../../assets/machines/volvo2.jpeg';
 import image4 from '../../assets/machines/js_205.jpeg';
 import image5 from '../../assets/machines/hyundai.png';
 import image6 from '../../assets/machines/case2.jpeg';
