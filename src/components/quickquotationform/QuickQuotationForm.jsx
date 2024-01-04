@@ -49,7 +49,7 @@ const QuickQuotationFormWhatsApp = ({ onClose }) => {
         ) : (
           <>
             <h2 className="text-center">Get a Quick Quotation</h2>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="max-w-md mx-auto">
               <label htmlFor="name">Name:</label>
               <input type="text" id="name" name="name" required />
 
