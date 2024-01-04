@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-const QuickQuotationFormWhatsApp = ({ onClose }) => {
+const QuickQuotationForm = ({ onClose }) => {
   const [showForm, setShowForm] = useState(false);
   const [submissionStatus, setSubmissionStatus] = useState('');
 
@@ -68,8 +68,8 @@ const QuickQuotationFormWhatsApp = ({ onClose }) => {
   );
 };
 
-QuickQuotationFormWhatsApp.propTypes = {
+QuickQuotationForm.propTypes = {
   onClose: PropTypes.func.isRequired,
 };
 
-export default QuickQuotationFormWhatsApp;
+export default QuickQuotationForm;
