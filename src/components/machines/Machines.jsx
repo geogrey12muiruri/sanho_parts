@@ -62,8 +62,11 @@ const Machines = () => {
             className="w-full h-full bg-cover bg-center flex items-center justify-center absolute top-0 left-0"
             style={{
               backgroundImage: `url(${item.image})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              transform: index === currentIndex ? 'scale(1)' : 'scale(0.9)', // Adjust the scale factor as needed
               opacity: index === currentIndex ? 1 : 0,
-              transition: 'opacity 1s ease-in-out',
+              transition: 'opacity 1s ease-in-out, transform 1s ease-in-out',
             }}
           >
             <div className="bg-white bg-opacity-70 p-4 rounded-lg text-center">

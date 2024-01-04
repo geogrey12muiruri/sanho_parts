@@ -41,7 +41,7 @@ const Navbar = () => {
 
         <div className='hidden md:flex items-center'>
           <ul className='flex gap-4'>
-            <li className='inline-block mx-4 text-gray-400 hover:text-orange-950'>
+            <li className='inline-block mx-4 text-white hover:text-orange-950'>
               <Link to="/">Home</Link>
             </li>
             <div
@@ -83,7 +83,7 @@ const Navbar = () => {
             <li className='inline-block mx-4 text-gray-400 hover:text-orange-950'>
               <Link to="/parts">Parts</Link>
             </li>
-            <li className='inline-block mx-4 text-gray-400 hover:text-orange-950'>
+            <li className='inline-block mx-4 text-white hover:text-orange-950'>
               <Link to="/about">About</Link>
             </li>
           </ul>
