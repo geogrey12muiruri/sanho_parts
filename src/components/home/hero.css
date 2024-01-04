@@ -1,0 +1,178 @@
+/* Add this to your CSS file */
+
+/* Adjusted styles for text container */
+.text-container {
+    max-width: 600px; /* Set a maximum width for the text container */
+    margin: 0 auto; /* Center the text container */
+    text-align: justify; /* Justify the text */
+  }
+  
+  /* Additional styles for improved layout */
+  .slider-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slide-wrapper {
+    background-color: #ffa500; /* Orange-950 background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slider-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Your existing styles for other elements */
+/* Add this to your CSS file */
+
+/* Adjusted styles for content wrapper */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Adjusted styles for text container */
+  .text-container {
+    max-width: 400px; /* Set a maximum width for the text container */
+  }
+  
+  /* Your existing styles for other elements */
+/* Add this to your CSS file */
+
+/* Adjusted styles for content wrapper */
+.content-wrapper {
+    display: flex;
+    gap: 200px; /* Set the desired gap between the image and text container */
+    align-items: center;
+  }
+  
+  /* Adjusted styles for text container */
+  .text-container {
+    max-width: 400px;
+  }
+  
+  /* Your existing styles for other elements */
+      /* Add this to your CSS file */
+
+/* Adjusted styles for image size */
+.slider-image {
+    max-width: 100%;
+    height: auto;
+    width: 400px; /* Set the desired width for the images */
+    height: 250px; /* Set the desired height for the images */
+  }
+  
+  /* Your existing styles for other elements */
+  /* Your existing styles for other elements */
+
+/* Adjusted styles for text container */
+.text-container {
+  max-width: 600px; /* Set a maximum width for the text container */
+  margin: 0 auto; /* Center the text container */
+  text-align: justify; /* Justify the text */
+}
+
+/* Additional styles for improved layout */
+.slider-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-wrapper {
+  background-color: #ffa500; /* Orange-950 background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Your existing styles for other elements */
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Adjusted styles for text container */
+  .text-container {
+    max-width: 100%; /* Full width for the text container on smaller screens */
+    padding: 0 20px; /* Add some padding on the sides for smaller screens */
+  }
+
+  /* Adjusted styles for content wrapper */
+  .content-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+    gap: 20px; /* Set the desired gap between elements on smaller screens */
+  }
+
+  /* Adjusted styles for image size */
+  .slider-image {
+    max-width: 100%;
+    height: auto;
+    width: 100%; /* Full width for the images on smaller screens */
+    max-width: 400px; /* Set the desired max width for the images on smaller screens */
+  }
+}
+
+/* Your existing styles for other elements */
+/* Hero.css */
+
+/* Default styles for larger screens */
+.slider-item {
+  width: 100%;
+}
+
+.slide-wrapper {
+  display: flex;
+  padding: 28px;
+}
+
+.slider-image {
+  width: 100%;
+  max-width: 600px; /* Set a maximum width for the image */
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .slide-wrapper {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    padding: 10px;
+  }
+
+  .slider-image {
+    max-width: 100%; /* Full width for the image on smaller screens */
+    margin-bottom: 10px; /* Reduce the margin between image and text */
+  }
+
+  .text-container {
+    padding: 10px;
+    order: 1; /* Move the text container below the image in the stacking order */
+    text-align: justify; /* Justify text */
+  }
+
+  .text-container h1,
+  .text-container p {
+    margin-bottom: 10px; /* Add some spacing between heading and paragraph */
+  }
+
+  .content-wrapper {
+    flex-direction: column; /* Ensure the content wrapper stacks vertically on smaller screens */
+  }
+}
