@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import whatsapp from '../../assets/whatsapp-icon.png'
 
 const Footer = () => {
-  const phoneNumber = '+254706565249'; 
+  const phoneNumber = '+254718528410'; 
   const whatsappLink = `https://wa.me/${phoneNumber}`;
   return (
     <footer className="bg-orange-950 text-white py-8">
@@ -69,7 +69,7 @@ const Footer = () => {
                   alt="WhatsApp Icon"
                   className="w-6 h-6 inline-block"
                 />
-                Chat with us on WhatsApp
+                
               </a>
             </li>
             {/* Add other support contacts as needed */}

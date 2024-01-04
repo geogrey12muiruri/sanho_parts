@@ -19,12 +19,12 @@ import Engine from './components/engine/Engine';
 import UnderCarriage from './components/undercarriage/UnderCarriage';
 import QuickWear from './components/quickwear/QuickWear';
 import Machines from './components/machines/Machines';
-import WhatsAppButton from './components/whatsapp/index';
+// import WhatsAppButton from './components/whatsapp/index';
 
 
 const App = () => {
   const [isFormVisible, setIsFormVisible] = useState(false);
-  const phoneNumber = '+254706565249';
+  // const phoneNumber = '+254706565249';
 
   useEffect(() => {
     // Show the form after 10 seconds
@@ -70,7 +70,7 @@ const App = () => {
         {/* Render QuickQuotationForm with onClose prop */}
         {isFormVisible && <QuickQuotationForm onClose={handleCloseForm} />}
         <Footer />
-        <WhatsAppButton phoneNumber={phoneNumber} />
+        {/* <WhatsAppButton phoneNumber={phoneNumber} /> */}
       </div>
     </Router>
   );

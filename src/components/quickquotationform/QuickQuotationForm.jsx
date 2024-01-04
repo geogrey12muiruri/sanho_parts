@@ -35,10 +35,7 @@ const QuickQuotationForm = ({ onClose }) => {
           </div>
         ) : (
           <>
-            <h2 className="text-center">Get in Touch on WhatsApp</h2>
-            <p className="text-center">
-              Click the WhatsApp icon below to start a chat with us.
-            </p>
+           
             <div className="flex justify-center">
               <button
                 onClick={handleChatStart}
