@@ -60,7 +60,11 @@ const Machines = () => {
           <div
             key={index}
             className="w-full h-full bg-cover bg-center flex items-center justify-center absolute top-0 left-0"
-            style={{ backgroundImage: `url(${item.image})`, opacity: index === currentIndex ? 1 : 0, transition: 'opacity 1s ease-in-out' }}
+            style={{
+              backgroundImage: `url(${item.image})`,
+              opacity: index === currentIndex ? 1 : 0,
+              transition: 'opacity 1s ease-in-out',
+            }}
           >
             <div className="bg-white bg-opacity-70 p-4 rounded-lg text-center">
               <h1 className="text-2xl text-orange-950 mb-2">{item.heading}</h1>
