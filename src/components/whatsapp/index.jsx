@@ -42,7 +42,7 @@ const WhatsAppButton = ({ phoneNumber }) => {
           alt="WhatsApp Icon"
           className="w-6 h-6 inline-block mr-2"
         />
-        Chat on WhatsApp
+        Contact Our Expert on Whatsapp.
       </button>
     </div>
   );

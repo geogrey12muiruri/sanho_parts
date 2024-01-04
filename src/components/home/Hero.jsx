@@ -65,7 +65,7 @@ const Hero = () => {
       <Slider {...sliderSettings}>
         {imagesWithText.map((item, index) => (
           <div key={index} className="slider-item">
-            <div className="slide-wrapper flex p-28">
+            <div className=" relative h-96 overflow-hidden rounded-lg slide-wrapper flex p-28">
               <div className="content-wrapper">
                 {/* Use responsive image with srcset */}
                 <img
@@ -75,7 +75,9 @@ const Hero = () => {
                   alt={`Heavy Equipment Part ${index + 1}`}
                   className="slider-image"
                 />
-                <div className="text-container">
+               
+              </div>
+              <div className="text-container">
                   <h1 className="text-2xl mb-2">{item.heading}</h1>
                   <p className="text-lg mb-4">{item.paragraph}</p>
                   <Link to="/shop">
@@ -84,7 +86,6 @@ const Hero = () => {
                     </button>
                   </Link>
                 </div>
-              </div>
             </div>
           </div>
         ))}

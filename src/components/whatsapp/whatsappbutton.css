@@ -1,23 +1,4 @@
-@keyframes shake {
-    0% {
-      transform: translateX(0);
-    }
-    20% {
-      transform: translateX(-5px);
-    }
-    40% {
-      transform: translateX(5px);
-    }
-    60% {
-      transform: translateX(-5px);
-    }
-    80% {
-      transform: translateX(5px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
+
   
   .whatsapp-floating-button {
     position: fixed;
@@ -28,7 +9,7 @@
   
   .whatsapp-floating-button button {
     background-color: #25d366;
-    color: #fff;
+    color: #141313;
     padding: 10px;
     border: none;
     border-radius: 50%;
@@ -41,9 +22,7 @@
     height: 20px;
   }
   
-  .animate-shake {
-    animation: shake 0.5s ease-in-out infinite;
-  }
+
   
   .hidden {
     display: none;

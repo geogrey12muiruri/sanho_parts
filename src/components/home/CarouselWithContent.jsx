@@ -47,7 +47,7 @@ export function CarouselWithContent() {
             key={index}
             className={`carousel-item-slide ${index === currentIndex ? "active" : ""}`}
             style={{ opacity: index === currentIndex ? 1 : 0.2 }} // Set opacity based on index and currentIndex
-            transition="opacity 500ms ease-in-out" // Define transition for opacity
+          // Define transition for opacity
             onClick={handleCarouselClick} // Optionally handle click on each image
           />
         ))}
