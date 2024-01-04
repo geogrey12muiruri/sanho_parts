@@ -19,7 +19,7 @@ import Engine from './components/engine/Engine';
 import UnderCarriage from './components/undercarriage/UnderCarriage';
 import QuickWear from './components/quickwear/QuickWear';
 import Machines from './components/machines/Machines';
-import WhatsAppButton from './components/whatsapp/WhatsappButton';
+import WhatsAppButton from '';
 
 
 const App = () => {

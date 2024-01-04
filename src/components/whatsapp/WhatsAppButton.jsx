@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import whatsapp from '../../assets/whatsapp-icon.png'
-import './whatsappbutton.css'
+import PropTypes from 'prop-types'; // Import PropTypes
+
+import whatsapp from '../../assets/whatsapp-icon.png';
+import './whatsappbutton.css';
+
 const WhatsAppButton = ({ phoneNumber }) => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -27,7 +30,7 @@ const WhatsAppButton = ({ phoneNumber }) => {
   return (
     <div
       className={`fixed bottom-4 right-4 transition-opacity duration-300 ${
-        isVisible ? 'animate-shake' : 'opacity-100'   
+        isVisible ? 'animate-shake' : 'opacity-100'
       }`}
     >
       <button
@@ -43,6 +46,11 @@ const WhatsAppButton = ({ phoneNumber }) => {
       </button>
     </div>
   );
+};
+
+// Define prop types
+WhatsAppButton.propTypes = {
+  phoneNumber: PropTypes.string.isRequired, // Require phoneNumber prop as a string
 };
 
 export default WhatsAppButton;
