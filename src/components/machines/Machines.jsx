@@ -11,18 +11,18 @@ import image6 from '../../assets/machines/banner345.jpg';
 const imagesWithText = [
   {
     image: image1,
-    heading: 'Shantui',
-    paragraph: 'We support a wide range of heavy equipment parts for Shantui machinery.',
+    heading: '',
+    paragraph: '',
   },
   {
     image: image2,
-    heading: 'Komatsu',
-    paragraph: 'Find the right equipment part for your Komatsu machinery and project requirements.',
+    heading: '',
+    paragraph: '',
   },
   {
     image: image3,
-    heading: 'Volvo',
-    paragraph: 'Our extensive community includes Volvo heavy equipment brands.',
+    heading: '',
+    paragraph: '',
   },
   {
     image: image4,
@@ -36,8 +36,8 @@ const imagesWithText = [
   },
   {
     image: image6,
-    heading: 'Case',
-    paragraph: 'We provide on-site construction services for Case heavy equipment.',
+    heading: '',
+    paragraph: '',
   },
   // Add more image-text pairs as needed
 ];
