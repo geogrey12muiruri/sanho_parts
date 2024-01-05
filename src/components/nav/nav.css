@@ -6,4 +6,70 @@
     display: block; /* Ensure block-level display to handle margin properly */
    
   }
-  
+  /* nav.css */
+
+/* Style for small screens */
+@media (max-width: 768px) {
+  .logo {
+    max-width: 100px; /* Adjust the logo size as needed */
+  }
+
+  .md\\:max-w-\\[1480px\\] {
+    max-width: 100%; /* Make sure the navbar takes full width on small screens */
+  }
+
+  .md\\:px-0 {
+    padding-left: 0; /* Remove left padding on small screens */
+    padding-right: 0; /* Remove right padding on small screens */
+  }
+
+  .md\\:hidden {
+    display: none; /* Hide the toggle icon on larger screens */
+  }
+
+  .md\\:flex {
+    display: block; /* Display the flex items in block format on small screens */
+  }
+
+  .md\\:items-center {
+    text-align: center; /* Center the items on small screens */
+    margin-top: 10px; /* Add some top margin for spacing */
+  }
+
+  .md\\:justify-between {
+    justify-content: center; /* Center the items on small screens */
+  }
+
+  .md\\:space-x-4 {
+    margin-top: 10px; /* Add some top margin for spacing */
+  }
+
+  .md\\:mt-0 {
+    margin-top: 10px; /* Add some top margin for spacing */
+  }
+
+  .md\\:w-auto {
+    width: 100%; /* Make sure the elements take full width on small screens */
+  }
+
+  .md\\:border-r-\\[2px\\] {
+    border-right: none; /* Remove border on small screens */
+  }
+
+  .md\\:p-0 {
+    padding: 0; /* Remove padding on small screens */
+  }
+
+  .md\\:px-4 {
+    padding-left: 10px; /* Add some left padding for spacing */
+    padding-right: 10px; /* Add some right padding for spacing */
+  }
+
+  .md\\:h-\\[80px\\] {
+    height: auto; /* Adjust height as needed for small screens */
+  }
+
+  .md\\:w-[1480px] {
+    width: 100%; /* Make sure the navbar takes full width on small screens */
+  }
+}
