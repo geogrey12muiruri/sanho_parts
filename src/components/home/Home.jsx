@@ -16,6 +16,7 @@ const Home = () => {
       {/* Other content for the Home page */}
       {/* <PartHome /> */}
      <Machines />
+     <Ads 
     </div>
   );
 };
