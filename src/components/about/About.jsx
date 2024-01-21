@@ -6,13 +6,13 @@ import Machines from '../machines/Machines';
 const TechnicalTeam = () => {
   const teamMembers = [
     {
-      name: 'John Doe',
-      role: 'Technical Manager',
+      name: 'Webwile Sifuna',
+      role: 'CEO & Founder',
       image: johnDoeImage,
     },
     {
-      name: 'Jane Smith',
-      role: 'Lead Engineer',
+      name: 'Tracy Mmbone',
+      role: 'Sales Manager',
       image: janeSmithImage,
     },
   ];
