@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import { CarouselWithContent } from './CarouselWithContent';
 import Machines from '../machines/Machines';
-// import PartHome from './PartHome';
+ import PartHome from './PartHome';
 
 const Home = () => {
 
@@ -14,7 +14,7 @@ const Home = () => {
       <CarouselWithContent />      
       {/* <Hero /> */}
       {/* Other content for the Home page */}
-      {/* <PartHome /> */}
+       <PartHome /> 
      <Machines />
      
     </div>

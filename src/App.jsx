@@ -69,7 +69,7 @@ const App = () => {
 
         {/* Render QuickQuotationForm with onClose prop */}
         {isFormVisible && <QuickQuotationForm onClose={handleCloseForm} />}
-        <Footer />
+        <Footer /> 
         {/* <WhatsAppButton phoneNumber={phoneNumber} /> */}
       </div>
     </Router>

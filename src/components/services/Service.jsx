@@ -1,9 +1,14 @@
+import Construction from "../construction/Construction"
+import HeavyEquipment from "../heavyequipmentandspareparts/HeavyEquipment"
+import MachineryRepair from "../machineryrepair/MachineryRepair"
 
 
 const Service = () => {
   return (
     <div>
-      services
+      <HeavyEquipment />
+      <MachineryRepair />
+      <Construction />
     </div>
   )
 }
