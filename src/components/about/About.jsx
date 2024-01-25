@@ -1,19 +1,25 @@
 import React from 'react';
-import johnDoeImage from '../../assets/technical-team/team-member-1.jpg';
-import janeSmithImage from '../../assets/technical-team/team-member-2.jpg';
+import johnDoeImage from '../../assets/technical-team/sifuna.jpg';
+import janeSmithImage from '../../assets/technical-team/tracy1.png';
+import BelindaAtienoImage from '../../assets/technical-team/belinda.jpeg';
 import Machines from '../machines/Machines';
 
 const TechnicalTeam = () => {
   const teamMembers = [
     {
       name: 'Webwile Sifuna',
-      role: 'CEO & Founder',
+      role: 'General Manager & Co-Founder',
       image: johnDoeImage,
     },
     {
       name: 'Tracy Mmbone',
       role: 'Sales Manager',
       image: janeSmithImage,
+    },
+    {
+      name: 'Belinda Atieno',
+      role: 'Marketing Director',
+      image: BelindaAtienoImage,
     },
   ];
 
